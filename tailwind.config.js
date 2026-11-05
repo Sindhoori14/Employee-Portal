@@ -5,9 +5,19 @@ module.exports = {
     extend: {
       fontFamily: { sans: ['var(--font-poppins)', 'system-ui', 'sans-serif'] },
       colors: {
-        brand: { 50: '#FFF3EE', 100: '#FFE0D3', 500: '#F25A27', 600: '#E8430F', 700: '#C2360A' },
-        accent: { 50: '#EEF5FF', 100: '#D9E8FF', 500: '#3B82F6', 600: '#1E6FE0', 700: '#1859B8' },
+        brand: { 50: '#FFF3EE', 100: '#FFE0D3', 500: '#F03D0A', 600: '#D83406', 700: '#B82B05' },
+        accent: { 50: '#EEF5FF', 100: '#D9E8FF', 500: '#006ADA', 600: '#0058B8', 700: '#004794' },
         ink: { 700: '#16365F', 800: '#0F2A4A', 900: '#0B2447' },
+        elevate: {
+          orange: '#F03D0A',
+          'orange-hover': '#D83406',
+          'orange-light': '#FFF4F0',
+          blue: '#006ADA',
+          'blue-hover': '#0058B8',
+          'blue-light': '#EEF5FF',
+          navy: '#0B2447',
+          'navy-dark': '#07162C',
+        },
       },
       boxShadow: { soft: '0 1px 2px rgba(15,42,74,.05), 0 4px 16px rgba(15,42,74,.06)', lift: '0 2px 4px rgba(15,42,74,.06), 0 14px 32px rgba(15,42,74,.12)', glow: '0 8px 24px rgba(242,90,39,.35)' },
       keyframes: {
